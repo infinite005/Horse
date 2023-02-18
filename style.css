@@ -1,0 +1,58 @@
+#nature{
+    width: 900px;
+    height: 420px;
+    background-color: rgb(51, 194, 51);
+    border: blue;
+    background-image: url(https://www.shutterstock.com/image-vector/cartoon-game-background-260nw-303257369.jpg);
+    border: 2px solid black;
+    margin: auto;
+    background-size: cover;
+    
+    
+}
+
+
+#score{
+    text-align: center;
+}
+
+#horse{
+    width: 100px;
+    height: 100px;
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/07782385-8809-4957-9ece-87dc049a22df/d7mxeyj-363859af-9178-42c5-856e-50435cf7fd18.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzA3NzgyMzg1LTg4MDktNDk1Ny05ZWNlLTg3ZGMwNDlhMjJkZlwvZDdteGV5ai0zNjM4NTlhZi05MTc4LTQyYzUtODU2ZS01MDQzNWNmN2ZkMTguZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.MaWI4WdFD9uJCQotqJhr7-_nYkFiMJThBMu1Cw9COmw);
+    background-size: cover;
+    position: relative;
+    top: 325px;
+    
+    
+
+}
+
+#stone{
+    width: 100px;
+    height: 100px;
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/c091267c-dce6-44d0-a4b3-3396cb512eb3/dafv167-bcec4c2b-80e5-4b5c-96a1-259d8e80354d.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2MwOTEyNjdjLWRjZTYtNDRkMC1hNGIzLTMzOTZjYjUxMmViM1wvZGFmdjE2Ny1iY2VjNGMyYi04MGU1LTRiNWMtOTZhMS0yNTlkOGU4MDM1NGQucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.rIfGTX4_8JRvN_xoT7OxKtJ-Qi_ALnsc-DfrOKE_Hx4);
+
+    background-size: cover;
+    position: relative;
+    left: 850px;
+    top: 250px;
+    animation: stone 2s infinite;
+}
+
+@keyframes stone {
+    0%{left: 850px;}
+    100%{left: -50px;}
+}
+
+.jump-animation  {
+    animation: jump 1s;
+}
+
+@keyframes jump {
+    0%{top: 325px;}
+    50%{top: 75px;}
+    75%{top: 75px;}
+    100%{top: 325px;}
+    
+}
